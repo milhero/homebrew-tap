@@ -7,8 +7,6 @@ cask "shotclip" do
   desc "Save screenshots to a file and the clipboard at the same time"
   homepage "https://github.com/milhero/ShotClip"
 
-  depends_on macos: ">= :ventura"
-
   app "ShotClip.app"
 
   zap trash: [
